@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gladi8or - Forge Your Warrior Spirit</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">GLADI8OR</div>
+            <ul class="nav-links">
+                <li><a href="#home" aria-current="page">Home</a></li>
+                <li><a href="#testimonials">Warrior Stories</a></li>
+                <li><a href="#pricing">Armory</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>FORGE YOUR <span>WARRIOR SPIRIT</span></h1>
+            <p>Join the arena where modern gladiators are made. Push beyond your limits and conquer your fitness goals.</p>
+            <a href="#pricing" class="cta-button">ENLIST NOW</a>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <h2>WARRIOR TESTIMONIALS</h2>
+        <div class="testimonial-container">
+            <div class="testimonial-card">
+                <div class="testimonial-header">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Marcus">
+                    <h3>Marcus</h3>
+                </div>
+                <p>"Gladi8or transformed me from an office worker to a Spartan. The trainers are like battle-hardened centurions who won't accept surrender."</p>
+                <div class="rating">★★★★★</div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-header">
+                    <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Darius">
+                    <h3>Darius</h3>
+                </div>
+                <p>"After 6 months at Gladi8or, I've achieved what I couldn't in 3 years at regular gyms. This is where warriors are forged."</p>
+                <div class="rating">★★★★★</div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-header">
+                    <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Valeria">
+                    <h3>Valeria</h3>
+                </div>
+                <p>"Don't let the name fool you - this gym welcomes all warriors. The intensity is unmatched, and the community is like a brotherhood in arms."</p>
+                <div class="rating">★★★★☆</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+        <h2>CHOOSE YOUR WEAPON</h2>
+        <div class="pricing-container">
+            <div class="pricing-card">
+                <h3>RECRUIT</h3>
+                <div class="price">$49<span>/month</span></div>
+                <ul>
+                    <li>Access to basic training grounds</li>
+                    <li>Open battle hours</li>
+                    <li>Monthly warrior assessment</li>
+                    <li>-</li>
+                    <li>-</li>
+                </ul>
+                <a href="#" class="pricing-button">ENLIST</a>
+            </div>
+            <div class="pricing-card featured">
+                <div class="popular-tag">MOST POPULAR</div>
+                <h3>CENTURION</h3>
+                <div class="price">$79<span>/month</span></div>
+                <ul>
+                    <li>Full arsenal access</li>
+                    <li>24/7 battle access</li>
+                    <li>Weekly strategy sessions</li>
+                    <li>Bi-weekly warrior assessment</li>
+                    <li>-</li>
+                </ul>
+                <a href="#" class="pricing-button">ENLIST</a>
+            </div>
+            <div class="pricing-card">
+                <h3>GLADIATOR</h3>
+                <div class="price">$129<span>/month</span></div>
+                <ul>
+                    <li>VIP battle grounds</li>
+                    <li>Personal war strategist</li>
+                    <li>Daily combat training</li>
+                    <li>Nutritional battle plans</li>
+                    <li>Exclusive warrior events</li>
+                </ul>
+                <a href="#" class="pricing-button">ENLIST</a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>THE ARENA</h3>
+                <p>123 Colosseum Way<br>
+                Sparta City, SC 12345<br>
+                Phone: (555) 555-5555</p>
+            </div>
+            <div class="footer-section">
+                <h3>BATTLE HOURS</h3>
+                <p>Monday-Friday: 5AM - 11PM<br>
+                Saturday: 7AM - 9PM<br>
+                Sunday: 8AM - 8PM</p>
+            </div>
+            <div class="footer-section">
+                <h3>JOIN THE WAR</h3>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Youtube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy;<span id="year"></span> GLADI8OR. All rights reserved. Forge your legacy.</p>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#about" aria-current="page">About</a></li> <!-- aria-current tells screen readers which menu item or link they are currently on -->
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" aria-label="Open navigation" tabindex="0"> <!-- aria-label gives a name to something for screen readers. it helps blind users knwo what a button or link does even if there is no visible text. -->
+                <!-- tabindex lets you use the Tab Key to move to things on the page, when the tabindex is set to 0 you can reach the item it is attached to be pressing the Tab Key -->
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h1>Hi, I'm <span>Ope Babasola</span></h1>
+            <p>Frontend Developer | HTML & CSS Expert</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate frontend developer with expertise in HTML and CSS. I create beautiful, responsive websites that provide optimal user experiences.</p>
+                    <p>My skills include semantic HTML5 markup, advanced CSS techniques including Flexbox and Grid, and creating responsive designs that work across all devices.</p>
+                    <p>When I'm not coding, I enjoy learning new design trends and techniques to enhance my skills.</p>
+                </div>
+                <div class="skills">
+                    <h3>My Skills</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Responsive Design</li>
+                        <li>CSS Flexbox & Grid</li>
+                        <li>UI/UX Principles</li>
+                        <li>Cross-Browser Compatibility</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <!-- Project Card 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Project 1.png" alt="Project 1"> <!-- For real projects, use descriptive alt text. -->
+                    </div>
+                    <div class="project-info">
+                        <h3>Responsive Landing Page For A Coffee Brand</h3>
+                        <p>A fully responsive landing page built with HTML and CSS, featuring modern design elements. 
+                            With the main theme of the webpage being cosmic coffee; coffee that takes you out of this world.</p>
+                        <div class="project-links">
+                            <a href="file:///C:/Users/opeba/Desktop/Portfolio/Project%201/index.html#hero" class="btn">View Demo</a>
+                            <a href="https://github.com/opebabs38/Portfolio/blob/main/Portfolio/Project%201/index.html" class="btn secondary">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Project 2.png" alt="Project 2"> <!-- For real projects, use descriptive alt text. -->
+                    </div>
+                    <div class="project-info">
+                        <h3>Responsive Landing Page For A Gym</h3>
+                        <p>Another fully responsive landing page built with HTML and CSS, featuring modern design elements.
+                            With the main theme being gladitorial; harsh, sharp and tough.</p>
+                        <div class="project-links">
+                            <a href="file:///C:/Users/opeba/Desktop/Portfolio/Project%202/index.html#home" class="btn">View Demo</a>
+                            <a href="https://github.com/opebabs38/Portfolio/blob/main/Portfolio/Project%202/index.html" class="btn secondary">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Procject 3.png" alt="Project 3"> <!-- For real projects, use descriptive alt text. -->
+                    </div>
+                    <div class="project-info">
+                        <h3>CSS Animation Showcase</h3>
+                        <p>A collection of CSS animations and transitions demonstrating advanced CSS techniques.</p>
+                        <div class="project-links">
+                            <a href="file:///C:/Users/opeba/Desktop/Portfolio/Project%203/index.html" class="btn">View Demo</a>
+                            <a href="https://github.com/opebabs38/Portfolio/blob/main/Portfolio/Project%203/styles.css" class="btn secondary">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x300" alt="Project 4"> <!-- For real projects, use descriptive alt text. -->
+                    </div>
+                    <div class="project-info">
+                        <h3>Flexbox Layout System</h3>
+                        <p>A comprehensive layout system built using CSS Flexbox with various configuration options.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn">View Demo</a>
+                            <a href="#" class="btn secondary">Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required aria-label="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required aria-label="Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required aria-label="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> My Portfolio. All rights reserved.</p> <!-- the span here is in relation to the script at the end of the footer, it allows for the correct year to be automatically inputted -->
+            <div class="social-links">
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
