@@ -3,6 +3,7 @@ My Portfolio Website
 Overview
 This is my personal portfolio website built with HTML and CSS to showcase my projects and skills as a Frontend Developer. The website is fully responsive and features accessibility options to ensure usability for all users. 
 
+
 What This Project Does
 
 This portfolio website serves as my online resume and a showcase for my projects. It includes:
@@ -12,6 +13,7 @@ This portfolio website serves as my online resume and a showcase for my projects
 - A Projects section: which displays all the projects that I have done, with images and links to those projects
 - A Contact form: for those who wish to contact me, though the form is not fully up and running as of yet
 - A Footer: which contains links to my social media accounts, though it is also not fully up and running
+
 
 Technologies Used
 
