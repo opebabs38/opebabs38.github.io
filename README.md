@@ -24,4 +24,7 @@ To visit my website, please click on the link provided:
 https://opebabs38.github.io/
 
 
+Please know that I have yet to figure out how to host the project on the page, so if you wish to look at them, you would need to copy the code from their respective files and run them on your system. Otherwise, please continue to look forward to my growth and development. Thank you.
+
+
 
